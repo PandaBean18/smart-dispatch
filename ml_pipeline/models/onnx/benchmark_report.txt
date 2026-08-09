@@ -1,0 +1,7 @@
+
+    # Quantization Benchmarks (Python ORT)
+    - FP32 Size: 87.08 MB
+    - INT8 Size: 22.82 MB (Reduction: 3.82x)
+    - FP32 Latency p50: 4.99 ms
+    - INT8 Latency p50: 1.47 ms (Speedup: 3.40x)
+    

@@ -1,0 +1,16 @@
+# Python/ML
+__pycache__/
+*.pyc
+.env
+checkpoint/
+data/
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Node/Extension
+node_modules/
+
+# OS Files
+.DS_Store
+Thumbs.db

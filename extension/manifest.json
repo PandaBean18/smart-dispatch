@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Dispatch",
+  "version": "1.0",
+  "description": "Edge-Native Hybrid Retrieval for Email Contextual Asset Selection",
+  "permissions": ["offscreen", "storage", "activeTab", "scripting"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["offscreen/offscreen.html", "lib/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
