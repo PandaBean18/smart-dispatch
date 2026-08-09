@@ -2,6 +2,13 @@
 
 Smart Dispatch is an edge-native Chrome extension that dynamically scans email drafts in Gmail using an on-device quantized ONNX model to suggest contextual file attachments and links based on pure semantic intent.
 
+## Demo
+
+Watch the demonstration video showing the end-to-end functionality:
+> *(Place your video file in the `demo/` directory and update the path below, or convert it to a `.gif` for native GitHub rendering)*
+
+![Smart Dispatch Demo](demo/smart-dispatch-demo.mp4)
+
 ## Features
 
 * **Local-First and Zero Telemetry:** All inference runs directly in your browser using Transformers.js and WebGPU/WASM. No email data leaves your device.
