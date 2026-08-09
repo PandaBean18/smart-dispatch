@@ -2,8 +2,8 @@
 __pycache__/
 *.pyc
 .env
-checkpoint/
-data/
+ml_pipeline/checkpoint/
+ml_pipeline/data/
 venv/
 .venv/
 .ipynb_checkpoints/
