@@ -6,7 +6,7 @@ Smart Dispatch is an edge-native Chrome extension that dynamically scans email d
 
 Watch the demonstration video showing the end-to-end functionality:
 
-![Smart Dispatch Demo](demo/smart-dispatch-demo.mp4)
+![Smart Dispatch Demo](demo/demo.gif)
 
 ## Features
 
