@@ -2,11 +2,13 @@
 __pycache__/
 *.pyc
 .env
-ml_pipeline/checkpoint/
+ml_pipeline/checkpoints/
 ml_pipeline/data/
 venv/
 .venv/
 .ipynb_checkpoints/
+ml_pipeline/models/smart-dispatch-minilm-v1/
+ml_pipeline/models/onnx/*.onnx
 
 # Node/Extension
 node_modules/
